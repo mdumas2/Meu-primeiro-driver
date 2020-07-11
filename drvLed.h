@@ -1,6 +1,6 @@
 #ifndef drvLed_h
 #define drvLed_h
-
+#include "drvDefinitions.h"
 //lista de funções do driver
 enum
 {

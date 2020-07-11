@@ -1,5 +1,7 @@
-#ifndef ctrdrv_h
-    #define ctrdrv_h
+#ifndef ctrlDrv_h
+    #define ctrlDrv_h
+    #include "drvDefinitions.h"
+    #include "drvLed.h"
     #define QNTD_DRV 20
     char initCtrDrv(void);
     char callDriver(char drv_id, char func_id, void *parameters);
@@ -14,4 +16,4 @@ enum {
 static ptrGetDrv drvGetFunc[DRV_END] = {
     getLedDriver,    /*1st driver*/
 };
-#endif // ctrdrv_h
+#endif // ctrlDrv_h
