@@ -20,5 +20,4 @@ enum
 static ptrGetDrv drvGetFunc[DRV_END] = {
     getLedDriver, /*1st driver*/
 };
-driver* drivers [QNTD_DRV];
 #endif // ctrlDrv_h
