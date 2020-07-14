@@ -10,7 +10,7 @@ char initDriver(char newDriver) {
     //get driver struct
    driversLoaded[dLoaded] = drvGetFunc[newDriver]();
 
-    //should test if driver was loaded correcly
+    //should test if driver was loaded correcly!
     resp=driversLoaded[dLoaded]->init(&newDriver);
     dLoaded++;
   }
